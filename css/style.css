@@ -1,0 +1,29 @@
+/* general */
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* Grid Layout */
+.grid-body {
+    display: grid;
+    grid-template-areas:
+    "header"
+    "main"
+    "footer";
+}
+
+.gb-header {
+    grid-area: header;
+}
+
+.gb-main {
+    grid-area: main;
+}
+
+.gb-footer {
+    grid-area: footer;
+}
